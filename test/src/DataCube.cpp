@@ -4,12 +4,13 @@
 
 
 //================================================================================
-
+// new comment 
 namespace DataCubeInterface
 {
     template<typename dtype>
     NdArray<dtype>& at(DataCube<dtype>& self, uint32 inIndex)
     {
+        std::cout << "Hello World!";
         return self.at(inIndex);
     }
 
